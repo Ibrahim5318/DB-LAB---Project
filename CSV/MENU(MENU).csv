@@ -1,0 +1,4 @@
+item_id,restaurant_id,item_name,price,category
+1,1,Chicken Burger,500,Fast food
+2,1,Zinger Burger ,600,Fast food 
+3,2,Pizza,1200,Fast food 
