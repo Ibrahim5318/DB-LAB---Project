@@ -2,7 +2,7 @@ CREATE DATABASE online_food_ordering;
 
 USE online_food_ordering;
 
--- USERS TABLE
+
 CREATE TABLE users (
     user_id INT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE users (
     password VARCHAR(50) NOT NULL
 );
 
--- RESTAURANT TABLE
+
 CREATE TABLE restaurant (
     restaurant_id INT PRIMARY KEY,
     restaurant_name VARCHAR(100) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE restaurant (
     contact VARCHAR(20)
 );
 
--- MENU TABLE
+
 CREATE TABLE menu (
     item_id INT PRIMARY KEY,
     restaurant_id INT,
@@ -28,7 +28,7 @@ CREATE TABLE menu (
     FOREIGN KEY (restaurant_id) REFERENCES restaurant(restaurant_id)
 );
 
--- ORDERS TABLE
+
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     user_id INT,
@@ -37,7 +37,7 @@ CREATE TABLE orders (
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
--- ORDER DETAILS TABLE
+
 CREATE TABLE order_details (
     order_detail_id INT PRIMARY KEY,
     order_id INT,
@@ -47,7 +47,7 @@ CREATE TABLE order_details (
     FOREIGN KEY (item_id) REFERENCES menu(item_id)
 );
 
--- PAYMENT TABLE
+
 CREATE TABLE payment (
     payment_id INT PRIMARY KEY,
     order_id INT,
