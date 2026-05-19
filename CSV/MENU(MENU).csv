@@ -1,4 +1,21 @@
 item_id,restaurant_id,item_name,price,category
-1,1,Chicken Burger,500,Fast food
-2,1,Zinger Burger ,600,Fast food 
-3,2,Pizza,1200,Fast food 
+1,1,Chicken Burger,500,Fast Food
+2,1,Zinger Burger,600,Fast Food
+3,2,Pizza,1200,Fast Food
+4,2,Cheese Pizza,1400,Fast Food
+5,3,Biryani,350,Desi Food
+6,3,Chicken Karahi,1800,Desi Food
+7,4,BBQ Platter,2200,BBQ
+8,4,Seekh Kebab,700,BBQ
+9,5,Pasta Alfredo,950,Italian
+10,5,Lasagna,1300,Italian
+11,6,Fried Chicken,850,Fast Food
+12,6,Club Sandwich,650,Fast Food
+13,7,Chicken Tikka,750,BBQ
+14,7,Malai Boti,900,BBQ
+15,8,Ice Cream Sundae,400,Dessert
+16,8,Chocolate Brownie,450,Dessert
+17,9,Mint Margarita,300,Beverages
+18,9,Cold Coffee,350,Beverages
+19,10,Shawarma Roll,500,Arabic
+20,10,Loaded Fries,550,Fast Food
