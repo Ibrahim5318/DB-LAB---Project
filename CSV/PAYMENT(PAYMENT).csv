@@ -1,2 +1,21 @@
 payment_id,order_id,payment_method,payment_status,payment_date,amount_paid
-1,1,Cash,Completed,5/10/2026,1500
+1,1,Cash,Completed,5/10/2026,1100
+2,2,JazzCash,Completed,5/11/2026,2600
+3,3,EasyPaisa,Completed,5/12/2026,2850
+4,4,Credit Card,Pending,5/13/2026,4200
+5,5,Cash,Completed,5/14/2026,3550
+6,6,JazzCash,Failed,5/15/2026,3200
+7,7,EasyPaisa,Completed,5/16/2026,3300
+8,8,Credit Card,Refunded,5/17/2026,2900
+9,9,Cash,Completed,5/18/2026,1950
+10,10,JazzCash,Pending,5/19/2026,3200
+11,11,EasyPaisa,Completed,5/20/2026,2500
+12,12,Credit Card,Completed,5/21/2026,1800
+13,13,Cash,Failed,5/22/2026,1650
+14,14,JazzCash,Completed,5/23/2026,4100
+15,15,EasyPaisa,Refunded,5/24/2026,2200
+16,16,Credit Card,Completed,5/25/2026,3700
+17,17,Cash,Pending,5/26/2026,1450
+18,18,JazzCash,Completed,5/27/2026,2750
+19,19,EasyPaisa,Completed,5/28/2026,3100
+20,20,Credit Card,Completed,5/29/2026,4800
